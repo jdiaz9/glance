@@ -92,6 +92,12 @@
             "type": "string",
             "enum": ["usbtablet"]
         },
+        "hw_vif_multiqueue_enabled": {
+            "title": "Enable VirtIO MultiQueue",
+            "description": "Enables parallel packet processing in the guest OS. Scales with vCPU count",
+            "type": "string",
+            "enum": ["true", "false"]
+        },
         "img_hide_hypervisor_id": {
             "title": "Hide hypervisor id",
             "description": "Enables hiding the host hypervisor signature in the guest OS.",
